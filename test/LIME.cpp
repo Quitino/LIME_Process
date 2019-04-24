@@ -6,7 +6,7 @@
 
 int main()
 {
-    cv::Mat img_in = cv::imread("../test/data/3.png"),img_out;
+    cv::Mat img_in = cv::imread("../test/data/1.jpg"),img_out;
 
     //cv::cvtColor(img_in, img_in, cv::COLOR_BGR2GRAY);
     //std::cout<<"img_in channels = "<<img_in.channels()<<std::endl;
@@ -27,10 +27,10 @@ int main()
     imshow("raw_picture",img_in);
     imshow("img_lime",img_out);
 
-    cv::waitKey(0);
+    
 
-    cv::imwrite("../test/data/3_lime.png",img_out);
-
+    cv::imwrite("../test/data/img_lime.png",img_out);
+	cv::waitKey(0);
     return 0;
 }
 

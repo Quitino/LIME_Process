@@ -11,12 +11,6 @@ Everyone can use it, and stars are necessary.
 
 * **[LIME](https://ieeexplore.ieee.org/document/7782813/)**, X. Guo, Y. Li and H. Ling, "LIME: Low-Light Image Enhancement via Illumination Map Estimation," in IEEE Transactions on Image Processing, vol. 26, no. 2, pp. 982-993, Feb. 2017.
 
-
-### Example
-![](test/data/3.png)  
-
-![](test/data/3_lime.png)
-
 # Preparation
 Clone the code
 ```
@@ -35,4 +29,9 @@ run the project
 cd ../bin
 ./LIME
 ```
+## Result
+处理前:
+![](test/data/1.jpg)
 
+处理后：
+![](test/data/img_lime.png)
