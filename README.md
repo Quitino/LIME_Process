@@ -31,7 +31,9 @@ cd ../bin
 ```
 ## Result
 处理前:
+
 ![](test/data/1.jpg)
 
 处理后：
+
 ![](test/data/img_lime.png)
