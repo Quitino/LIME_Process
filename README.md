@@ -14,7 +14,7 @@ Everyone can use it, and stars are necessary.
 # Preparation
 Clone the code
 ```
-git clone https://github.com/zj611/LIME_Processing.git
+git clone https://github.com/Quitino/LIME_Process.git
 ```
 Then build the project 
 ```
